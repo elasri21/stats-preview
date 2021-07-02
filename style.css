@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html, body {
+    height: 100%;
+
+}
+body {
+    font-family: 'Inter' sans-serif;
+}
+#page {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+}
+@media screen and (max-width: 375px){
+    #page {
+        height: auto;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        padding: 40px 15px;
+
+        
+    }
+}
+#page > div {
+    width: 25%;
+    height: auto;
+   
+}
+@media screen and (max-width: 375px){
+    #page > div {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+#page #info {
+    background-color: hsl(244, 38%, 16%);
+    padding: 40px 30px;
+    border-radius: 4px 0 0 4px;
+    height: 253px;
+  
+    
+}
+@media screen and (max-width: 375px){
+    #page #info {
+        padding: 15px;
+        text-align: center;
+        height: auto;
+        -moz-box-ordinal-group: 2;
+        -webkit-box-ordinal-group: 2;
+
+    }
+}
+#page #info h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Inter';
+    margin-bottom: 20px;
+}
+#page #info h1 span {
+    color: hsl(277, 64%, 61%);
+}
+#page #info p#main-paragraph {
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 40px;
+}
+#page #info #spans-container {
+    text-align: center;
+}
+#page #info #spans-container div {
+    display: inline-block;
+    width: 30%;
+}
+@media screen and (max-width: 375px){
+    #page #info #spans-container div {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #page #info #spans-container div * {
+        text-align: center;
+    }
+}
+#page #info #spans-container div  h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'inter';
+    font-weight: 700;
+}
+#page #info #spans-container div p {
+    font-size: 10px;
+    font-family: 'Inter';
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+}
+
+/*arrived at this point*/
+#page #container-img {
+    height: 333px;
+    width: 30%;
+    background: url('images/image-header-desktop.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 0 4px 4px 0; 
+}
+@media screen and (max-width: 375px){
+    #page #container-img {
+        width: 100%;
+        -moz-box-ordinal-group: 1;
+        -webkit-box-ordinal-group: 1;
+
+
+    }
+}
+.image {
+    
+    border-radius: 0 4px 4px 0;
+    background-color: hsl(277, 64%, 61%);
+    opacity: .8;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
