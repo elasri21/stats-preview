@@ -32,10 +32,10 @@ body .page {
     order: 1;
   }
   body .page .info h1 {
-    text-align: left;
+    text-align: left !important;
   }
   body .page .info .main-paragraph {
-    text-align: left;
+    text-align: left !important;
   }
   body .page .info .spans-container {
     display: flex;
@@ -68,11 +68,13 @@ body .page .info h1 {
   font-weight: 700;
   font-family: 'Inter';
   margin-bottom: 20px;
+  text-align: center;
 }
 body .page .info h1 span {
   color: #aa5cdb;
 }
 body .page .info .main-paragraph {
+  text-align: center;
   font-size: 12px;
   font-family: 'Inter';
   font-weight: 400;
