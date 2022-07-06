@@ -72,6 +72,7 @@ body .page .info h1 {
 }
 body .page .info h1 span {
   color: #aa5cdb;
+  text-align: center;
 }
 body .page .info .main-paragraph {
   text-align: center;
